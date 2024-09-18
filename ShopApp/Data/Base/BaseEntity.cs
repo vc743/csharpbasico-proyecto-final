@@ -4,16 +4,16 @@
     {
         public BaseEntity()
         {
-            CreationDate = DateTime.Now;
-            Deleted = false;
+            creation_date = DateTime.Now;
+            deleted = false;
         }
 
-        public DateTime CreationDate { get; set; }
-        public int CreationUser { get; set; }
-        public DateTime? ModifyDate { get; set; }
-        public int? UserMod { get; set; }
-        public int? UserDeleted { get; set; }
-        public DateTime? DeletedDate { get; set; }
-        public bool Deleted { get; set; }
+        public DateTime creation_date { get; set; }
+        public int creation_user { get; set; }
+        public DateTime? modify_date { get; set; }
+        public int? modify_user { get; set; }
+        public int? delete_user { get; set; }
+        public DateTime? delete_date { get; set; }
+        public bool deleted { get; set; }
     }
 }

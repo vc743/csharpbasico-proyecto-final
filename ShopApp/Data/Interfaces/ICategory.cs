@@ -5,7 +5,7 @@ namespace ShopApp.Data.Interfaces
 {
     public interface ICategory
     {
-        void SaveCatedory(CategoryAddDto addDto);
+        void SaveCategory(CategoryAddDto addDto);
         void RemoveCategory(CategoryRemoveDto removeDto);
         void UpdateCategory(CategoryUpdateDto updateDto);
 

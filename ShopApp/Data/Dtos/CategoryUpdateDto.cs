@@ -3,9 +3,9 @@
     public record CategoryUpdateDto
     {
         public int categoryid { get; set; }
-        public string? CategoryName { get; set; }
-        public string? Description { get; set; }
-        public DateTime ModifyDate { get; set; }
-        public DateTime ModifyUser { get; set; }
+        public string? categoryname { get; set; }
+        public string? description { get; set; }
+        public DateTime modify_date { get; set; }
+        public int modify_user { get; set; }
     }
 }
