@@ -11,7 +11,8 @@ namespace ShopApp.Data.Daos
         private readonly ShopDbContext shopDb;
         private readonly ILogger<DaoCategory> logger;
 
-        public DaoCategory(ShopDbContext shopDb, ILogger<DaoCategory> logger)
+        public DaoCategory(ShopDbContext shopDb, 
+                            ILogger<DaoCategory> logger)
         {
             this.shopDb = shopDb;
             this.logger = logger;
@@ -24,6 +25,7 @@ namespace ShopApp.Data.Daos
             {
                 categories = (from cate in this.shopDb.Categories
                              where cate.deleted == false
+                             orderby cate.creation_date descending
                              select new CategoryAddDto()
                              {
                                  categoryname = cate.categoryname,
@@ -52,6 +54,7 @@ namespace ShopApp.Data.Daos
                     throw new CategoryException("La categoria no se encuentra registrada.");
                 }
 
+                categoryResult.categoryid = category.categoryid;
                 categoryResult.categoryname = category.categoryname;
                 categoryResult.description = category.description;
                 categoryResult.creation_date = category.creation_date;
