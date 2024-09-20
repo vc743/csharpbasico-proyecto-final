@@ -22,6 +22,7 @@ namespace ShopApp.Controllers
         // GET: CategoryController/Details/5
         public ActionResult Details(int id)
         {
+            id = 3;
             var category = this.categoryDb.GetCategoryById(id);
             return View(category);
         }
@@ -53,6 +54,7 @@ namespace ShopApp.Controllers
         // GET: CategoryController/Edit/5
         public ActionResult Edit(int id)
         {
+            id = 3;
             var category = this.categoryDb.GetCategoryById(id);
             return View(category);
         }

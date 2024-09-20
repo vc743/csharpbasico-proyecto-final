@@ -50,9 +50,7 @@ namespace ShopApp.Data.Daos
                 var category = this.shopDb.Categories.Find(categoryId);
 
                 if (category is null)
-                {
                     throw new CategoryException("La categoria no se encuentra registrada.");
-                }
 
                 categoryResult.categoryid = category.categoryid;
                 categoryResult.categoryname = category.categoryname;
