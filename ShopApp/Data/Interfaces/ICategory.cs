@@ -1,5 +1,4 @@
 ﻿using ShopApp.Data.Dtos;
-using System.Xml.Serialization;
 
 namespace ShopApp.Data.Interfaces
 {

@@ -13,10 +13,10 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.categoryname)
+                @Html.DisplayNameFor(model => model.CategoryName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.description)
+                @Html.DisplayNameFor(model => model.Description)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.creation_date)
@@ -31,10 +31,10 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.categoryname)
+                @Html.DisplayFor(modelItem => item.CategoryName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.description)
+                @Html.DisplayFor(modelItem => item.Description)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.creation_date)
@@ -43,8 +43,9 @@
                 @Html.DisplayFor(modelItem => item.creation_user)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { id = item.categoryid }) |
-                @Html.ActionLink("Details", "Details", new { id = item.categoryid }) |
+                @* @Html.ActionLink("Edit", "Edit", new { id = item.CategoryId }) *@ 
+                <a asp-controller="Category" asp-action="Edit" asp-route-id="@item.CategoryId">Edit</a> |
+                @Html.ActionLink("Details", "Details", new { id = item.CategoryId }) |
             </td>
         </tr>
 }

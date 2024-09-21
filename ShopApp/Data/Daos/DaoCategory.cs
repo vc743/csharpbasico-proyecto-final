@@ -28,8 +28,8 @@ namespace ShopApp.Data.Daos
                              orderby cate.creation_date descending
                              select new CategoryAddDto()
                              {
-                                 categoryname = cate.categoryname,
-                                 description = cate.description,
+                                 CategoryName = cate.categoryname,
+                                 Description = cate.description,
                                  creation_date = cate.creation_date,
                                  creation_user = cate.creation_user
                              }).ToList();
@@ -52,9 +52,9 @@ namespace ShopApp.Data.Daos
                 if (category is null)
                     throw new CategoryException("La categoria no se encuentra registrada.");
 
-                categoryResult.categoryid = category.categoryid;
-                categoryResult.categoryname = category.categoryname;
-                categoryResult.description = category.description;
+                categoryResult.CategoryId = category.categoryid;
+                categoryResult.CategoryName = category.categoryname;
+                categoryResult.Description = category.description;
                 categoryResult.creation_date = category.creation_date;
                 categoryResult.creation_user = category.creation_user;
 
@@ -103,15 +103,15 @@ namespace ShopApp.Data.Daos
                     throw new CategoryException("El objeto categoria no puede ser nulo.");
                 }
 
-                if (this.shopDb.Categories.Any(cate => cate.categoryname == addDto.categoryname))
+                if (this.shopDb.Categories.Any(cate => cate.categoryname == addDto.CategoryName))
                 {
                     throw new CategoryException("El objeto categoria no puede ser nulo.");
                 }
 
                 Category category = new Category()
                 {
-                   categoryname = addDto.categoryname,
-                   description = addDto.description,
+                   categoryname = addDto.CategoryName,
+                   description = addDto.Description,
                    creation_date = addDto.creation_date,
                    creation_user = addDto.creation_user
                 };

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|c:\\users\\contreras vargas\\source\\repos\\shop\\shopapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|c:\\users\\contreras vargas\\source\\repos\\shop\\shopapp\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|c:\\users\\contreras vargas\\source\\repos\\shop\\shopapp\\data\\daos\\daocategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\data\\daos\\daocategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|c:\\users\\contreras vargas\\source\\repos\\shop\\shopapp\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|c:\\users\\contreras vargas\\source\\repos\\shop\\shopapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|c:\\users\\contreras vargas\\source\\repos\\shop\\shopapp\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|c:\\users\\contreras vargas\\source\\repos\\shop\\shopapp\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|c:\\users\\contreras vargas\\source\\repos\\shop\\shopapp\\data\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|c:\\users\\contreras vargas\\source\\repos\\shop\\shopapp\\data\\dtos\\categoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\data\\dtos\\categoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|c:\\users\\contreras vargas\\source\\repos\\shop\\shopapp\\data\\dtos\\categoryadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D92E129-7173-4B7F-BF55-1D46709FC463}|ShopApp\\ShopApp.csproj|solutionrelative:shopapp\\data\\dtos\\categoryadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,20 +50,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryAddDto.cs",
-              "DocumentMoniker": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Data\\Dtos\\CategoryAddDto.cs",
-              "RelativeDocumentMoniker": "ShopApp\\Data\\Dtos\\CategoryAddDto.cs",
-              "ToolTip": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Data\\Dtos\\CategoryAddDto.cs",
-              "RelativeToolTip": "ShopApp\\Data\\Dtos\\CategoryAddDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T01:27:47.004Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopApp\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "ShopApp\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T01:55:26.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "ShopApp\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "ShopApp\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T01:53:22.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "CategoryUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Data\\Dtos\\CategoryUpdateDto.cs",
               "RelativeDocumentMoniker": "ShopApp\\Data\\Dtos\\CategoryUpdateDto.cs",
@@ -76,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Data\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "ShopApp\\Data\\Entities\\Category.cs",
@@ -89,39 +102,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "ShopApp\\Views\\Category\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "ShopApp\\Views\\Category\\Create.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACMAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T21:18:01.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Views\\Category\\Edit.cshtml",
               "RelativeDocumentMoniker": "ShopApp\\Views\\Category\\Edit.cshtml",
               "ToolTip": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Views\\Category\\Edit.cshtml",
               "RelativeToolTip": "ShopApp\\Views\\Category\\Edit.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-19T20:36:30.604Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "ShopApp\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Controllers\\CategoryController.cs*",
-              "RelativeToolTip": "ShopApp\\Controllers\\CategoryController.cs*",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowDcAAAATAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ShopApp\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAmwDcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T21:34:31.946Z",
               "EditorCaption": ""
@@ -134,7 +134,7 @@
               "RelativeDocumentMoniker": "ShopApp\\Data\\Daos\\DaoCategory.cs",
               "ToolTip": "C:\\Users\\Contreras Vargas\\source\\repos\\Shop\\ShopApp\\Data\\Daos\\DaoCategory.cs",
               "RelativeToolTip": "ShopApp\\Data\\Daos\\DaoCategory.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAADYAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwEQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T21:03:30.459Z",
               "EditorCaption": ""
