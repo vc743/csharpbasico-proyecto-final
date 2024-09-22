@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Categories</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -43,9 +43,8 @@
                 @Html.DisplayFor(modelItem => item.creation_user)
             </td>
             <td>
-                @* @Html.ActionLink("Edit", "Edit", new { id = item.CategoryId }) *@ 
-                <a asp-controller="Category" asp-action="Edit" asp-route-id="@item.CategoryId">Edit</a> |
-                @Html.ActionLink("Details", "Details", new { id = item.CategoryId }) |
+                @Html.ActionLink("Edit", "Edit", new { id = item.CategoryId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.CategoryId })
             </td>
         </tr>
 }

@@ -28,6 +28,7 @@ namespace ShopApp.Data.Daos
                              orderby cate.creation_date descending
                              select new CategoryAddDto()
                              {
+                                 CategoryId = cate.categoryid,
                                  CategoryName = cate.categoryname,
                                  Description = cate.description,
                                  creation_date = cate.creation_date,
