@@ -135,15 +135,16 @@ namespace ShopApp.Data.Daos
                     throw new CategoryException("El objeto categoria no puede ser nulo.");
                 }
 
-                Category category = this.shopDb.Categories.Find(updateDto.categoryid);
+                Category category = this.shopDb.Categories.Find(updateDto.CategoryId);
 
                 if (category is null) 
                 {
                     throw new CategoryException("La categoria no se encuentra registrada.");
                 }
 
-                category.categoryname = updateDto.categoryname;
-                category.description = updateDto.description;
+                category.categoryid = updateDto.CategoryId;
+                category.categoryname = updateDto.CategoryName;
+                category.description = updateDto.Description;
                 category.modify_user = updateDto.modify_user;
                 category.modify_date = updateDto.modify_date;
 
