@@ -1,10 +1,12 @@
 ﻿using ShopApp.Data.Base;
+using System.ComponentModel.DataAnnotations;
 
 namespace ShopApp.Data.Entities
 {
     public sealed class Customer : BaseEntity
     {
-        public int cusid { get; set; }
+        [Key]
+        public int custid { get; set; }
         public string? companyname { get; set; }
         public string? contactname { get; set; }
         public string? contacttitle { get; set; }

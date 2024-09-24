@@ -11,6 +11,6 @@ namespace ShopApp.Data.Context
         }
 
         public DbSet<Category> Categories { get; set; }
-        //public DbSet<Customer> Customers { get; set; }
+        public DbSet<Customer> Customers { get; set; }
     }
 }

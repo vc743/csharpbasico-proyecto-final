@@ -10,6 +10,7 @@ builder.Services.AddDbContext<ShopDbContext>(options =>
                                     options.UseSqlServer(builder.Configuration.GetConnectionString("ShopDb")));
 
 builder.Services.AddTransient<ICategory, DaoCategory>();
+builder.Services.AddTransient<ICustomer, DaoCustomer>();
 
 
 builder.Services.AddControllersWithViews();
