@@ -122,7 +122,6 @@ namespace ShopApp.Data.Daos
                     throw new CustomerException("El objeto cliente no puede ser nulo.");
                 }
 
-                // Lista de tuplas que contiene los campos y sus límites 
                 var fieldLimits = new List<(string FieldName, string FieldValue, int MaxLength)>
                 {
                     ("CompanyName", addDto.CompanyName, 40),
@@ -138,7 +137,6 @@ namespace ShopApp.Data.Daos
                     ("Fax", addDto.Fax, 24)
                 };
 
-                // Validar cada campo en la lista
                 foreach (var field in fieldLimits)
                 {
                     if (field.FieldValue.Length > field.MaxLength)

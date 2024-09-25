@@ -5,44 +5,44 @@ using ShopApp.Data.Interfaces;
 
 namespace ShopApp.Controllers
 {
-    public class CustomerController : Controller
+    public class ProductController : Controller
     {
-        private readonly ICustomer customerDb;
+        private readonly IProduct productDb;
 
-        public CustomerController(ICustomer customerDb)
+        public ProductController(IProduct productDb)
         {
-            this.customerDb = customerDb;
+            this.productDb = productDb;
         }
 
         public ActionResult Index()
         {
-            var customers = this.customerDb.GetCustomers();
-            return View(customers);
+            var products = this.productDb.GetProducts();
+            return View(products);
         }
 
-        // GET: CustomerController/Details/5
+        // GET: ProductController/Details/5
         public ActionResult Details(int id)
         {
-            var customer = this.customerDb.GetCustomerById(id);
-            return View(customer);
+            var product = this.productDb.GetProductById(id);
+            return View(product);
         }
 
-        // GET: CustomerController/Create
+        // GET: ProductController/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: CustomerController/Create
+        // POST: ProductController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(CustomerAddDto addDto)
+        public ActionResult Create(ProductAddDto addDto)
         {
             try
             {
                 addDto.creation_date = DateTime.Now;
                 addDto.creation_user = 2;
-                this.customerDb.SaveCustomer(addDto);
+                this.productDb.SaveProduct(addDto);
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -51,23 +51,23 @@ namespace ShopApp.Controllers
             }
         }
 
-        // GET: CustomerController/Edit/5
+        // GET: ProductController/Edit/5
         public ActionResult Edit(int id)
         {
-            var customer = this.customerDb.GetCustomerById(id);
-            return View(customer);
+            var product = this.productDb.GetProductById(id);
+            return View(product);
         }
 
-        // POST: CustomerController/Edit/5
+        // POST: ProductController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(CustomerUpdateDto updateDto)
+        public ActionResult Edit(ProductUpdateDto updateDto)
         {
             try
             {
                 updateDto.modify_date = DateTime.Now;
                 updateDto.modify_user = 2;
-                this.customerDb.UpdateCustomer(updateDto);
+                this.productDb.UpdateProduct(updateDto);
                 return RedirectToAction(nameof(Index));
             }
             catch

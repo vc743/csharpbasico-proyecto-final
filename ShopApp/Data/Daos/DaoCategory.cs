@@ -3,6 +3,7 @@ using ShopApp.Data.Dtos;
 using ShopApp.Data.Entities;
 using ShopApp.Data.Exceptions;
 using ShopApp.Data.Interfaces;
+using System.Collections.Generic;
 
 namespace ShopApp.Data.Daos
 {
@@ -102,6 +103,21 @@ namespace ShopApp.Data.Daos
                 if (addDto is null)
                 {
                     throw new CategoryException("El objeto categoria no puede ser nulo.");
+                }
+
+                var fieldLimits = new List<(string FieldName, string FieldValue, int MaxLength)>
+                {
+                    ("CategoryName", addDto.CategoryName, 15),
+                    ("Description", addDto.Description, 200)
+                };
+
+                foreach (var field in fieldLimits)
+                {
+                    if (field.FieldValue.Length > field.MaxLength)
+                    {
+                        this.logger.LogWarning($"La longitud de {field.FieldName} sobrepasa el límite de {field.MaxLength} caracteres.");
+                        throw new CategoryException($"El campo {field.FieldName} no puede exceder {field.MaxLength} caracteres.");
+                    }
                 }
 
                 if (this.shopDb.Categories.Any(cate => cate.categoryname == addDto.CategoryName))

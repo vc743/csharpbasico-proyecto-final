@@ -11,6 +11,8 @@ builder.Services.AddDbContext<ShopDbContext>(options =>
 
 builder.Services.AddTransient<ICategory, DaoCategory>();
 builder.Services.AddTransient<ICustomer, DaoCustomer>();
+builder.Services.AddTransient<ISupplier, DaoSupplier>();
+builder.Services.AddTransient<IProduct, DaoProduct>();
 
 
 builder.Services.AddControllersWithViews();
